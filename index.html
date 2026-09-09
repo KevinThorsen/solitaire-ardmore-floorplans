@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Floorplans | Solitaire Homes of Ardmore</title>
+  <meta name="description" content="Floorplans for homes on display at Solitaire Homes of Ardmore, Oklahoma." />
+  <style>
+    :root {
+      --navy: #0b2a4a;
+      --gold: #c9a227;
+      --bg: #f4f1ea;
+      --text: #1a1a1a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.45;
+    }
+    header {
+      background: var(--navy);
+      color: #fff;
+      padding: 18px 18px 16px;
+    }
+    header .brand {
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-weight: 700;
+    }
+    header h1 {
+      font-size: 24px;
+      margin-top: 4px;
+    }
+    header p {
+      font-size: 14px;
+      opacity: 0.9;
+      margin-top: 4px;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+    .card {
+      display: block;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 16px 18px;
+      text-decoration: none;
+      color: var(--text);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .card strong {
+      display: block;
+      font-size: 18px;
+      color: var(--navy);
+    }
+    .card span {
+      font-size: 14px;
+      color: #555;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 10px 14px;
+      border-radius: 4px;
+    }
+    .btn-call { background: var(--gold); color: var(--navy); }
+    .btn-maps { background: #1a73e8; color: #fff; }
+    footer {
+      padding: 8px 18px 24px;
+      font-size: 13px;
+      color: #444;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">Solitaire Homes of Ardmore</div>
+    <h1>Floorplans</h1>
+    <p>Homes on display · 2916 S Commerce St</p>
+  </header>
+
+  <main>
+    <a class="card" href="EM28764A/">
+      <strong>EM28764A</strong>
+      <span>View floorplan</span>
+    </a>
+
+    <div class="actions">
+      <a class="btn btn-call" href="tel:5802249120">Call (580) 224-9120</a>
+      <a class="btn btn-maps"
+         href="https://www.google.com/maps/dir/?api=1&destination=2916+S+Commerce+St,+Ardmore,+OK+73401"
+         target="_blank"
+         rel="noopener">Directions</a>
+    </div>
+  </main>
+
+  <footer>
+    2916 S Commerce St, Ardmore, OK 73401
+  </footer>
+</body>
+</html>
